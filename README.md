@@ -59,3 +59,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Cara Clone Repository
+Berikut adalah langkah-langkah untuk melakukan clone repository ini:
+Prasyarat
+
+Git - Pastikan Git sudah terinstal di komputer Anda
+
+1. Download Git dari git-scm.com
+2. Ikuti panduan instalasi sesuai sistem operasi Anda
+3. Verifikasi instalasi dengan menjalankan perintah git --version di terminal/command prompt
+
+
+XAMPP/Web Server - Aplikasi ini membutuhkan web server, PHP, dan MySQL
+
+Download XAMPP dari apachefriends.org
+Instal XAMPP dengan mengikuti panduan instalasi
+Pastikan service Apache dan MySQL berjalan dengan baik
+
+
+
+Langkah-langkah Clone Repository
+
+1. Buka terminal atau command prompt
+2. Arahkan ke direktori folder yang digunakan untuk menyimpan projects tersebut
+3. Jalankan perintah "git clone https://github.com/Asrulsani04/Manajemen_Karyawan.git"
+4. Tunggu beberapa saat hingga proses cloning selesai
+5. Setelah selesai, buka direktori project tersebut dengan menggunakan perintah "cd Manajemen_Karyawan"
+6. Jalankan perintah "composer install" untuk menginstal dependensi
+7. Jalankan perintah "php artisan key:generate" untuk mengenerate key aplikasi
