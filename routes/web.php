@@ -10,4 +10,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::resource('karyawan', KaryawanController::class);
+Route::resource('karyawan', PegawaiController::class);

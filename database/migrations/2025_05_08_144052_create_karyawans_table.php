@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('alamat');
             $table->string('nik');
             $table->string('divisi');
-            $table->string('jabatan');
+            $table->string('jabatan')
             $table->timestamps();
         });
     }

@@ -171,7 +171,7 @@
                                         </div>
                                     </div>
                                 </td>
-                                <td>{{ $karyawan->alamat }}</td>
+                                <td>{{ $karyawan->address}}
                                 <td>{{ $karyawan->nik }}</td>
                                 <td><span class="badge-divisi">{{ $karyawan->divisi }}</span></td>
                                 <td><span class="badge-jabatan">{{ $karyawan->jabatan }}</span></td>
