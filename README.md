@@ -86,5 +86,10 @@ Langkah-langkah Clone Repository
 3. Jalankan perintah "git clone https://github.com/Asrulsani04/Manajemen_Karyawan.git"
 4. Tunggu beberapa saat hingga proses cloning selesai
 5. Setelah selesai, buka direktori project tersebut dengan menggunakan perintah "cd Manajemen_Karyawan"
-6. Jalankan perintah "composer install" untuk menginstal dependensi
-7. Jalankan perintah "php artisan key:generate" untuk mengenerate key aplikasi
+6. Jalankan perintah "cp .env.example .env" untuk copy file .env.example menjadi .env
+7. Lakukan konfigurasi pada .env agar database bisa di migrate
+8  Jalankan perintah "composer install" untuk menginstal dependensi
+9. jalankan perintah "php artisan key:generate" untuk mengenerate key aplikasi
+10. Jalankan perintah "php artisan migrate" untuk melakukan migrasi database
+11. Jalankan perintah "php artisan db:seed" untuk melakukan seeding data
+12. Jalankan perintah "php artisan serve" untuk menjalankan aplikasi
